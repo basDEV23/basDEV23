@@ -1,0 +1,12 @@
+/* src/App.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.appContainer {
+  padding: 80px 20px 20px; /* Oberes Padding erhöhen, um Platz für den fixierten Header zu schaffen */
+  max-width: 800px;
+  margin: 0 auto;
+}

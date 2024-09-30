@@ -1,0 +1,24 @@
+/* src/components/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f3f2f1;
+  border-bottom: 1px solid #ddd;
+  width: 100%; /* Breite des Headers soll 100% des Viewports einnehmen */
+  max-width: 100vw; /* Maximalbreite des Viewports, um Scrollen zu verhindern */
+  position: fixed; /* Fixiere den Header am oberen Rand */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Damit der Header über dem restlichen Inhalt bleibt */
+  box-sizing: border-box; /* Padding wird in die Breite einbezogen */
+}
+
+.logo {
+  height: 40px;
+}
+
+.iconButton {
+  color: black;
+}
